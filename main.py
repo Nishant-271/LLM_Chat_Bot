@@ -26,7 +26,8 @@ else:
 # ---------------------------
 
 try:
-    model = genai.GenerativeModel("gemini-1.5-flash")  # ✅ fixed model name
+    model = genai.GenerativeModel("gemini-1.5-flash-latest")
+ 
 except Exception as e:
     st.error(f"❌ Error loading model: {e}")
     st.stop()
