@@ -4,6 +4,6 @@
 # streamlit==1.30.0 # streamlit is a python library that allows us to build web apps in python
 
 
-streamlit
-google-generativeai>=0.3.2
-python-dotenv
+streamlit==1.38.0
+google-generativeai>=0.6.0
+python-dotenv==1.0.1
